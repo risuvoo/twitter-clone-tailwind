@@ -1,6 +1,7 @@
-# Tailwind CSS Laravel Mix Starter Project
+# Twitter-clone
 
 We use this as a starter template to quickly develop static HTML pages with :
+
 - TailwindCSS
 - Laravel Mix (Webpack)
 - PostCSS
@@ -32,7 +33,7 @@ We use this as a starter template to quickly develop static HTML pages with :
 3. Open `public/index.html` in your editor and start experimenting!
 
 Base Tailwind CSS file is under `/resources/assets/css/styles.css`  
-Root HTML file is under `/public/index.html` 
+Root HTML file is under `/public/index.html`
 
 ## Building for production
 
@@ -45,4 +46,5 @@ yarn prod
 ```
 
 ## Credits
+
 Made by [meXuvo](https://linkedin.com/in/meXuvo)
