@@ -1,3 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.custom-file-upload input[type="file"] {
+  display: none;
+}

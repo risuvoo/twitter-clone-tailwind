@@ -10,7 +10,8 @@
   "dependencies": {
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.35",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+    "vue-tailwind-modal": "^1.0.5"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "2.3.0",
