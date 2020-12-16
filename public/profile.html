@@ -186,7 +186,7 @@
               </a>
 
               <button
-                class="bg-blue-400 w-48 mt-5 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full"
+                class="bg-blue-400 focus:outline-none font-bold hover:bg-blue-600 mt-5 px-4 py-2 rounded-full text-white w-48"
               >
                 Tweet
               </button>
@@ -215,6 +215,16 @@
                     </p>
                   </div>
                 </div>
+              </a>
+            </div>
+
+            <div>
+              <a href="/login.html">
+                <button
+                  class="bg-blue-400 focus:outline-none font-medium hover:bg-blue-600 mt-5 px-4 py-2 rounded-full text-white w-48"
+                >
+                  Log Out
+                </button>
               </a>
             </div>
           </div>
@@ -286,7 +296,7 @@
                 <!-- overlay -->
                 <div
                   class="overflow-auto"
-                  style="background-color: rgba(0,0,0,0.5)"
+                  style="background-color: rgba(0, 0, 0, 0.5); display: none;"
                   x-show="isDialogOpen"
                   :class="{ 'absolute inset-0 z-10 flex items-center justify-center': isDialogOpen }"
                 >
@@ -296,6 +306,7 @@
                     x-show="isDialogOpen"
                     @click.away="isDialogOpen = false"
                     @scroll.window="isDialogOpen = false"
+                    style="display: none;"
                   >
                     <div class="border-b flex items-center p-2 text-xl">
                       <button
